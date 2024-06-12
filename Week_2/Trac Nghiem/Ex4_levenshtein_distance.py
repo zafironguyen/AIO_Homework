@@ -17,21 +17,10 @@ def levenshtein_distance(s1, s2):
                                matrix[i][j - 1] + 1,
                                matrix[i - 1][j - 1] + sub_cost)
 
-<<<<<<< HEAD
-=======
-            matrix[i][j] = min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1,
-                               matrix[i - 1][j - 1] + substitution_cost)
-
->>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72
     distance = matrix[len(s1)][len(s2)]
     return distance
 
 
-<<<<<<< HEAD
 if __name__ == "__main__":
     assert levenshtein_distance("hi", "hello") == 4
     print(levenshtein_distance('hola', 'hello'))
-=======
-assert levenshtein_distance("hi", "hello") == 4
-print(levenshtein_distance('hola', 'hello'))
->>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72

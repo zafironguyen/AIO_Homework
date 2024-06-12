@@ -7,11 +7,6 @@ def character_count(word):
     return character_statistic
 
 
-<<<<<<< HEAD
 if __name__ == "__main__":
     assert character_count("Baby") == {'B': 1, 'a': 1, 'b': 1, 'y': 1}
     print(character_count('smiles'))
-=======
-assert character_count("Baby") == {'B': 1, 'a': 1, 'b': 1, 'y': 1}
-print(character_count('smiles'))
->>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72

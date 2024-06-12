@@ -11,17 +11,9 @@ def check_the_number(n):
     return results
 
 
-<<<<<<< HEAD
 if __name__ == "__main__":
     N = 7
     assert check_the_number(N) == " False "
     N = 2
     results = check_the_number(N)
     print(results)
-=======
-N = 7
-assert check_the_number(N) == " False "
-N = 2
-results = check_the_number(N)
-print(results)
->>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72
