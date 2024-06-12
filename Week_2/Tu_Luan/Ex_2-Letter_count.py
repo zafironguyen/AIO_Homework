@@ -2,11 +2,11 @@ string_1 = 'Happiness'
 
 
 def letter_count(string):
-    dict = {}
+    result = {}
     for letter in string:
-        count = dict.get(letter, 0)
-        dict[letter] = count+1
-    return dict
+        count = result.get(letter, 0)
+        result[letter] = count+1
+    return result
 
 
 print(letter_count(string_1))
