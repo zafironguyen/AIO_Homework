@@ -17,9 +17,17 @@ def my_function(data):
     return res
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     lst = [10, 10, 9, 7, 7]
     assert my_function(lst) == [10, 9, 7]
 
     lst = [9, 9, 8, 1, 1]
     print(my_function(lst))
+=======
+lst = [10, 10, 9, 7, 7]
+assert my_function(lst) == [10, 9, 7]
+
+lst = [9, 9, 8, 1, 1]
+print(my_function(lst))
+>>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72

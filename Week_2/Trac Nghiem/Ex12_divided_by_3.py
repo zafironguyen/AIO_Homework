@@ -6,6 +6,11 @@ def my_function(data):
     return var
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     assert my_function([3, 9, 4, 5]) == [3, 9]
     print(my_function([1, 2, 3, 5, 6]))
+=======
+assert my_function([3, 9, 4, 5]) == [3, 9]
+print(my_function([1, 2, 3, 5, 6]))
+>>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72

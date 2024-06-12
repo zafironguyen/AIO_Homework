@@ -20,6 +20,11 @@ def levenshtein_distance(s1, s2):
     return distance
 
 
+<<<<<<< HEAD:Week_2/Tu_Luan/Ex4_Levenshtein.py
 if __name__ == "__main__":
     assert levenshtein_distance("hi", "hello") == 4
     print(levenshtein_distance('hola', 'hello'))
+=======
+assert levenshtein_distance("hi", "hello") == 4
+print(levenshtein_distance('hola', 'hello'))
+>>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72:Week_2/Tu_Luan/Ex_4-Levenshtein.py

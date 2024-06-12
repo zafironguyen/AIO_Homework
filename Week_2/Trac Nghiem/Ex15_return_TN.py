@@ -9,9 +9,17 @@ def my_function(data):
     return res
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
     data = [10, 0, -10, -1]
     assert my_function(data) == ['T', 'N', 'N', 'N']
 
     data = [2, 3, 5, -1]
     print(my_function(data))
+=======
+data = [10, 0, -10, -1]
+assert my_function(data) == ['T', 'N', 'N', 'N']
+
+data = [2, 3, 5, -1]
+print(my_function(data))
+>>>>>>> 46b7aa2acfdc84d7b926c61c796cc963115e9b72
