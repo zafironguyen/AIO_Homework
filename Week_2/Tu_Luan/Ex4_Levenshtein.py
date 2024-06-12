@@ -9,13 +9,12 @@ def levenshtein_distance(s1, s2):
     for i in range(1, len(s1) + 1):
         for j in range(1, len(s2) + 1):
             if s1[i - 1] == s2[j - 1]:
-                sub_cost = 0
+                substitution_cost = 0
             else:
-                sub_cost = 1
+                substitution_cost = 1
 
-            matrix[i][j] = min(matrix[i - 1][j] + 1,
-                               matrix[i][j - 1] + 1,
-                               matrix[i - 1][j - 1] + sub_cost)
+            matrix[i][j] = min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1,
+                               matrix[i - 1][j - 1] + substitution_cost)
 
     distance = matrix[len(s1)][len(s2)]
     return distance

@@ -17,8 +17,9 @@ def my_function(data):
     return res
 
 
-lst = [10, 10, 9, 7, 7]
-assert my_function(lst) == [10, 9, 7]
+if __name__ == "__main__":
+    lst = [10, 10, 9, 7, 7]
+    assert my_function(lst) == [10, 9, 7]
 
-lst = [9, 9, 8, 1, 1]
-print(my_function(lst))
+    lst = [9, 9, 8, 1, 1]
+    print(my_function(lst))
