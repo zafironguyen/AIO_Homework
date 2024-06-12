@@ -1,18 +1,19 @@
-def check_the_number ( N ) :
+def check_the_number(n):
     list_of_numbers = []
-    result = ""
-    for i in range (1 , 5) :
-    # Your code here
-    #Su dung append them i vao trong list_of_number
+    for i in range(1, 5):
+        # Your code here
+        # Su dung append them i vao trong list_of_number
         list_of_numbers.append(i)
-    if N in list_of_numbers :
+    if n in list_of_numbers:
         results = " True "
-    if N not in list_of_numbers :
+    else:
         results = " False "
     return results
 
-N = 7
-assert check_the_number(N) == " False "
-N = 2
-results = check_the_number(N)
-print(results)
+
+if __name__ == "__main__":
+    N = 7
+    assert check_the_number(N) == " False "
+    N = 2
+    results = check_the_number(N)
+    print(results)
