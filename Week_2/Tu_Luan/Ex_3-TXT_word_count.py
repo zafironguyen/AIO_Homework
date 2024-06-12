@@ -8,5 +8,6 @@ def word_count_txt(link):
                 word_dict[word] = count + 1
     return word_dict
 
+
 path = 'D:\\AIO-homework\\Module 1\\Week_2\\P1_data.txt'
 print(word_count_txt(path))
