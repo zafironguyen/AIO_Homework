@@ -17,3 +17,4 @@ if __name__ == "__main__":
     N = 2
     results = check_the_number(N)
     print(results)
+
