@@ -13,13 +13,12 @@ def levenshtein_distance(s1, s2):
             else:
                 substitution_cost = 1
 
-            matrix[i][j] = min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1,                   
-                               matrix[i - 1][j - 1] + substitution_cost)  
-            
+            matrix[i][j] = min(matrix[i - 1][j] + 1, matrix[i][j - 1] + 1,
+                               matrix[i - 1][j - 1] + substitution_cost)
+
     distance = matrix[len(s1)][len(s2)]
     return distance
 
 
-
 assert levenshtein_distance("hi", "hello") == 4.0
-print(levenshtein_distance('hola', 'hello')) 
+print(levenshtein_distance('hola', 'hello'))

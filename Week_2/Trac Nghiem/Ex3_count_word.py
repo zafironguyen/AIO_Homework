@@ -8,6 +8,7 @@ def count_word(file_path):
                 counter[word] = count + 1
     return counter
 
+
 path = 'D:\\AIO-homework\\Module 1\\Week_2\\Trac Nghiem\\P1_data.txt'
 
 result = count_word(path)
