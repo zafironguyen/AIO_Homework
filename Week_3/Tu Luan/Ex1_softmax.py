@@ -4,11 +4,17 @@ import torch.nn.functional as F
 
 
 class Softmax(nn.Module):
+    def __init__(self):
+        super().__init__()
+
     def forward(self, x):
         return F.softmax(x, dim=0)
 
 
 class SoftmaxStable(nn.Module):
+    def __init__(self):
+        super().__init__()
+
     def forward(self, x):
         x_exp = torch.exp(x - torch.max(x))
         return x_exp / x_exp.sum(dim=0)
