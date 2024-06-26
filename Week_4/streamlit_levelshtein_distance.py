@@ -8,7 +8,7 @@ def load_vocab(file_path):
         return words
 
 
-vocabs = load_vocab(file_path='D:\\AIO-homework\\Module 1\\Week4\\vocab.txt')
+vocabs = load_vocab(file_path='D:\\AIO-homework\\Module 1\\Week_4\\vocab.txt')
 
 
 def levenshtein_distance(token1, token2):

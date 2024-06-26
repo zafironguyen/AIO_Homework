@@ -2,8 +2,8 @@ import numpy as np
 from PIL import Image
 import streamlit as st
 import cv2
-MODEL = "D:\AIO-homework\Module 1\Week4\model\MobileNetSSD_deploy.caffemodel"
-PROTOTXT = "D:\AIO-homework\Module 1\Week4\model\MobileNetSSD_deploy.prototxt.txt"
+MODEL = "D:\AIO-homework\Module 1\Week_4\model\MobileNetSSD_deploy.caffemodel"
+PROTOTXT = "D:\AIO-homework\Module 1\Week_4\model\MobileNetSSD_deploy.prototxt.txt"
 
 
 def process_image(image):
